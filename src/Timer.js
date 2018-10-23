@@ -18,7 +18,11 @@ class Timer extends Component {
     this.timer.current.style.color = '#'+Math.floor(Math.random()*16777215).toString(16);
   }
 
+<<<<<<< HEAD
   shouldComponentUpdate(nextProps, nextState) {
+=======
+  shouldComponentUpdate() {
+>>>>>>> de7b0ca3db91334ea6ae47b945cb7bc7c5dd4182
     if (this.state.time === nextState.time) {
       return false
     }
